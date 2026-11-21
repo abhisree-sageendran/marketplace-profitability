@@ -1,4 +1,5 @@
 # Marketplace Profitability and Returns
+[Open the interactive dashboard](https://marketplace-profitability-a.streamlit.app)
 
 A seller profitability analysis project built with Python, Pandas,
 DuckDB SQL, Streamlit, and Plotly.
@@ -93,7 +94,29 @@ python -m streamlit run app.py
 
 ## Findings
 
-After running the dashboard, record three observations here.
+These observations describe the synthetic demonstration dataset.
 
-For each observation, include the selected filters, the measured
-result, an interpretation, and a proposed follow-up analysis.
+### 1. Category with the highest unit return rate
+
+With all sellers, categories, and the full date range selected,
+[CATEGORY] had the highest unit return rate at [RATE]%.
+
+This identifies a category to investigate for return-related costs.
+A follow-up analysis would examine its return reasons and individual
+products.
+
+### 2. Product with the lowest contribution profit
+
+Across the full dataset, [PRODUCT] recorded the lowest total
+contribution profit at ₹[AMOUNT].
+
+A follow-up analysis would separate the effects of discounts,
+refunds, product costs, and shipping expenses.
+
+### 3. Seller with the highest contribution margin
+
+Across the full dataset, [SELLER] recorded the highest contribution
+margin at [MARGIN]%, with net revenue of ₹[REVENUE].
+
+A follow-up analysis would compare product mix, discount levels,
+and return rates before attributing the difference to seller performance.
