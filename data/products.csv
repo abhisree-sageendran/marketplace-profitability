@@ -1,0 +1,9 @@
+product_id,product_name,category,unit_price,unit_cost
+P01,Wireless Headphones,Electronics,2400,1450
+P02,Bluetooth Speaker,Electronics,1800,1100
+P03,Cotton Shirt,Fashion,1200,450
+P04,Running Shoes,Fashion,2600,1250
+P05,Desk Lamp,Home,1500,750
+P06,Storage Organizer,Home,900,380
+P07,Yoga Mat,Fitness,1100,460
+P08,Resistance Bands,Fitness,700,240
