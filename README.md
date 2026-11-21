@@ -95,28 +95,37 @@ python -m streamlit run app.py
 ## Findings
 
 These observations describe the synthetic demonstration dataset.
+All categories and sellers were selected for orders placed between
+1 January and 31 December 2025. Recorded returns associated with
+those orders are included, even when returned later.
 
-### 1. Category with the highest unit return rate
+### 1. Overall profitability and returns
 
-With all sellers, categories, and the full date range selected,
-[CATEGORY] had the highest unit return rate at [RATE]%.
+The dataset generated net revenue of ₹9,537,540 and contribution
+profit of ₹2,464,177, producing a contribution margin of 25.8%.
+The overall unit return rate was 12.0%.
 
-This identifies a category to investigate for return-related costs.
-A follow-up analysis would examine its return reasons and individual
-products.
+A follow-up analysis would compare category return rates and
+investigate how refunds, inventory recovery, and return shipping
+affect contribution profit.
 
 ### 2. Product with the lowest contribution profit
 
-Across the full dataset, [PRODUCT] recorded the lowest total
-contribution profit at ₹[AMOUNT].
+Storage Organizer recorded the lowest total contribution profit
+among the eight products, at approximately ₹225,000 based on
+the chart.
 
-A follow-up analysis would separate the effects of discounts,
-refunds, product costs, and shipping expenses.
+Its contribution margin was higher than several products with
+greater total contribution profit. A follow-up analysis would
+compare units sold, revenue, discounts, and return-related costs
+to understand the difference.
 
-### 3. Seller with the highest contribution margin
+### 3. Return reason with the highest refund amount
 
-Across the full dataset, [SELLER] recorded the highest contribution
-margin at [MARGIN]%, with net revenue of ₹[REVENUE].
+Damaged products accounted for the highest total refund amount,
+at approximately ₹310,000 based on the chart.
 
-A follow-up analysis would compare product mix, discount levels,
-and return rates before attributing the difference to seller performance.
+A follow-up analysis would identify the products and sellers
+associated with these returns and examine packaging, shipping,
+and product-quality factors. The chart establishes the refund
+ranking, while the underlying causes require further investigation.
